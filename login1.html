@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人社保计算软件</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+		
+		<style>
+			#login {
+				width:1100px;
+				height:600px;
+				position:absolute;
+				margin-top:100px;
+				margin-left:300px;
+			}
+			td {
+				text-align:center;
+			}			
+			button {
+				width:270px;
+				height:40px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id = "login">
+			<div style = "width = 1000px;margin-left:370px;">
+				<h3>社保计算软件-Web版</h3>
+			</div>
+			<table class = "table table-bordered">
+				<tr>
+					<td>工资</td>
+					<td colspan = "3">
+						<form>
+							<input class = "form-control" type = "text" placeholder = "请输入工资">
+						</form>
+					</td>
+					<td style = "width:280px;">
+						<div>
+							<button type ="button" class = "btn btn-danger btn-lg">计算</button>
+						</div>
+					</td>
+				</tr>
+				<tr style = "background-color:#347ab6;color:#ffffff;">
+					<td>验种</td><td>个人%</td><td>个人</td><td>公司%</td><td>公司</td>
+				</tr>
+				<tr>
+					<td>养老</td>
+					<td>8%</td>
+					<td></td>
+					<td>20%</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>医疗</td>
+					<td>2%</td>
+					<td></td>
+					<td>6%</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>失业</td>
+					<td>0.5%</td>
+					<td></td>
+					<td>1.5%</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>工伤</td>
+					<td></td>
+					<td></td>
+					<td>0.5%</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>生育</td>
+					<td></td>
+					<td></td>
+					<td>0.8%</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>公积金</td>
+					<td>12%</td>
+					<td></td>
+					<td>12%</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>合计</td>
+					<td>个人合计</td>
+					<td></td>
+					<td>公司合计</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>总额</td>
+					<td colspan = "4"></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
